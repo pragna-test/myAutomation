@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="OneLogin" duration-ms="14238" started-at="2020-10-21T00:06:32Z" finished-at="2020-10-21T00:06:46Z">
+    <groups>
+    </groups>
+    <test name="Specific Methods Executionwith Exclude" duration-ms="14238" started-at="2020-10-21T00:06:32Z" finished-at="2020-10-21T00:06:46Z">
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBReg">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="beforeSuite" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:32Z" finished-at="2020-10-21T11:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="beforeClass" is-config="true" duration-ms="3147" started-at="2020-10-21T11:06:32Z" finished-at="2020-10-21T11:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="beforeTest" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:32Z" finished-at="2020-10-21T11:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:35Z" finished-at="2020-10-21T11:06:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistrationTwo(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:35Z" description="FBReg" finished-at="2020-10-21T11:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="myFBRegistrationTwo(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="myFBRegistrationTwo" duration-ms="9415" started-at="2020-10-21T11:06:35Z" finished-at="2020-10-21T11:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistrationTwo(java.lang.reflect.Method) throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- myFBRegistrationTwo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:45Z" finished-at="2020-10-21T11:06:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="afterMethod" is-config="true" duration-ms="22" started-at="2020-10-21T11:06:45Z" finished-at="2020-10-21T11:06:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=myFBRegistrationTwo status=SUCCESS method=FBReg.myFBRegistrationTwo(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="terminateBrowser" is-config="true" duration-ms="1650" started-at="2020-10-21T11:06:45Z" finished-at="2020-10-21T11:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:46Z" finished-at="2020-10-21T11:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBReg@7f560810]" name="afterSuite" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:46Z" finished-at="2020-10-21T11:06:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBReg -->
+    </test> <!-- Specific Methods Executionwith Exclude -->
+  </suite> <!-- OneLogin -->
+  <suite name="TwoLogins" duration-ms="14517" started-at="2020-10-21T00:06:18Z" finished-at="2020-10-21T00:06:32Z">
+    <groups>
+      <group name="smoke">
+        <method signature="FBLogin.FbLoginTwo(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="FbLoginTwo" class="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Specific Methods Execution with Include" duration-ms="14517" started-at="2020-10-21T00:06:18Z" finished-at="2020-10-21T00:06:32Z">
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeSuite" is-config="true" duration-ms="227" started-at="2020-10-21T11:06:17Z" finished-at="2020-10-21T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:18Z" finished-at="2020-10-21T11:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeClass" is-config="true" duration-ms="3713" started-at="2020-10-21T11:06:18Z" finished-at="2020-10-21T11:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeMethod" is-config="true" duration-ms="22" started-at="2020-10-21T11:06:21Z" finished-at="2020-10-21T11:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginOne(java.lang.reflect.Method) throws java.lang.InterruptedException,jxl.read.biff.BiffException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:21Z" description="FbLogin" finished-at="2020-10-21T11:06:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FbLoginOne(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="FbLoginOne" duration-ms="5617" started-at="2020-10-21T11:06:21Z" finished-at="2020-10-21T11:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginOne(java.lang.reflect.Method) throws java.lang.InterruptedException,jxl.read.biff.BiffException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbLoginOne -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterMethod" is-config="true" duration-ms="348" started-at="2020-10-21T11:06:27Z" finished-at="2020-10-21T11:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FbLoginOne status=SUCCESS method=FBLogin.FbLoginOne(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:27Z" finished-at="2020-10-21T11:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:27Z" description="FbLogin" finished-at="2020-10-21T11:06:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="FbLoginTwo(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="FbLoginTwo" duration-ms="3150" started-at="2020-10-21T11:06:27Z" finished-at="2020-10-21T11:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginTwo(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FbLoginTwo -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:27Z" finished-at="2020-10-21T11:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginTwo(java.lang.reflect.Method) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-10-21T11:06:31Z" finished-at="2020-10-21T11:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterMethod" is-config="true" duration-ms="13" started-at="2020-10-21T11:06:31Z" finished-at="2020-10-21T11:06:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FbLoginTwo status=SUCCESS method=FBLogin.FbLoginTwo(java.lang.reflect.Method)[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="terminateBrowser" is-config="true" duration-ms="1638" started-at="2020-10-21T11:06:31Z" finished-at="2020-10-21T11:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:32Z" finished-at="2020-10-21T11:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@6be46e8f]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-10-21T11:06:32Z" finished-at="2020-10-21T11:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBLogin -->
+    </test> <!-- Specific Methods Execution with Include -->
+  </suite> <!-- TwoLogins -->
+  <suite name="Suites of xml files" duration-ms="0" started-at="2020-10-21T00:06:47Z" finished-at="2020-10-21T00:06:47Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suites of xml files -->
+</testng-results>

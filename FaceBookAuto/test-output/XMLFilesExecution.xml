@@ -1,0 +1,9 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<suite name="Suites of xml files">
+	<suite-files>
+		<suite-file  path="IncludeMethodExecution.xml" />
+		<suite-file path="ExcludeMethodExecution.xml" />
+		
+	</suite-files> 
+
+</suite>

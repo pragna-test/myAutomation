@@ -1,0 +1,16 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel  ="none">
+<test name="ExtentReportGenerationWithMultipleClasses">
+	
+	 <classes>
+	   <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin">
+	   
+	   
+	   </class>
+	   <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBReg"/>	  
+	   <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram"/>	 
+	 
+	   	   	   
+	 </classes>   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="ExtentReportGenerationWithMultipleClasses(failed)" parallel="none">
+    <classes>
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="terminateBrowser"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram -->
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="terminateBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBLogin -->
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBReg">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="terminateBrowser"/>
+          <include name="myFBRegistration" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBReg -->
+    </classes>
+  </test> <!-- ExtentReportGenerationWithMultipleClasses(failed) -->
+</suite> <!-- Failed suite [Suite] -->

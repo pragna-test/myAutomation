@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite12]" parallel="none">
+  <test name="Specific Methods Execution(failed)" parallel="none">
+    <classes>
+      <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeSuite"/>
+          <include name="terminateBrowser"/>
+          <include name="afterTest"/>
+          <include name="afterSuite"/>
+          <include name="FbLoginThree" invocation-numbers="0"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.SampleMaven.FaceBookAuto.TestScripts.FBLogin -->
+    </classes>
+  </test> <!-- Specific Methods Execution(failed) -->
+</suite> <!-- Failed suite [Suite12] -->

@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<suite name="OneLogin" parallel  ="none">
+<test name="Specific Methods Executionwith Exclude">
+	
+	 <classes>
+	   <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBReg">
+	   <methods>
+	   <method>
+	   <exclude name="myFBRegistrationOne"/>
+	   
+		</method>	   
+	   
+	   
+	   </methods>
+	   
+	   </class>
+	  	   	   	   
+	 </classes>   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

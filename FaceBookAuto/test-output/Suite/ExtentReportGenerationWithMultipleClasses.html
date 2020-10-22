@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>TestNG:  ExtentReportGenerationWithMultipleClasses</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>ExtentReportGenerationWithMultipleClasses</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 15 15:33:11 AEDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>32 seconds (32757 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistration()'><b>myFBRegistration</b><br>Test class: com.SampleMaven.FaceBookAuto.TestScripts.FBReg<br>Parameters: public void com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistration(java.lang.reflect.Method) throws java.lang.Exception</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-6R21AUOG&apos;, ip: &apos;10.0.0.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pragna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ed071bb6d78fda38a146240facf3bf3
+*** Element info: {Using=name, value=firstname}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.SampleMaven.FaceBookAuto.pageObjects.FBHomePageObjects.enterFirstNameOnFBReg(FBHomePageObjects.java:157)
+	at com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistration(FBReg.java:33)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1266265220", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1266265220'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;firstname&apos;]&quot;}
+  (Session info: chrome=86.0.4240.75)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-6R21AUOG&apos;, ip: &apos;10.0.0.20&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_261&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.75, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\Pragna\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50920}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2ed071bb6d78fda38a146240facf3bf3
+*** Element info: {Using=name, value=firstname}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.SampleMaven.FaceBookAuto.pageObjects.FBHomePageObjects.enterFirstNameOnFBReg(FBHomePageObjects.java:157)
+	at com.SampleMaven.FaceBookAuto.TestScripts.FBReg.myFBRegistration(FBReg.java:33)
+</pre></div></td>
+<td>1</td>
+<td>com.SampleMaven.FaceBookAuto.TestScripts.FBReg@4157f54e</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginOne()'><b>FbLoginOne</b><br>Test class: com.SampleMaven.FaceBookAuto.TestScripts.FBLogin<br>Parameters: public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginOne(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>3</td>
+<td>com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@62043840</td></tr>
+<tr>
+<td title='com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginTwo()'><b>FbLoginTwo</b><br>Test class: com.SampleMaven.FaceBookAuto.TestScripts.FBLogin<br>Parameters: public void com.SampleMaven.FaceBookAuto.TestScripts.FBLogin.FbLoginTwo(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>2</td>
+<td>com.SampleMaven.FaceBookAuto.TestScripts.FBLogin@62043840</td></tr>
+<tr>
+<td title='com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram.fbInstagram()'><b>fbInstagram</b><br>Test class: com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram<br>Parameters: public void com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram.fbInstagram(java.lang.reflect.Method) throws java.lang.InterruptedException</td>
+<td></td>
+<td>8</td>
+<td>com.SampleMaven.FaceBookAuto.TestScripts.FBInstagram@47f6473</td></tr>
+</table><p>
+</body>
+</html>

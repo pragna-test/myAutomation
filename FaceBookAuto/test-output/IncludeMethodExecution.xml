@@ -1,0 +1,20 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<suite name="TwoLogins" parallel  ="none">
+<test name="Specific Methods Execution with Include">
+	
+	 <classes>
+	   <class name="com.SampleMaven.FaceBookAuto.TestScripts.FBLogin">
+	   <methods>
+	   <method>
+	   <include name="FbLoginOne"/>
+	   <include name="FbLoginTwo"/>
+		</method>	   
+	   
+	   
+	   </methods>
+	   
+	   </class>
+	  	   	   	   
+	 </classes>   
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
