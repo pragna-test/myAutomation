@@ -16,5 +16,12 @@ public static WebDriver driver;
 	//Login Password
 	@FindBy(name="pass")
 	public WebElement LoginPasswordOnFBHome;
+	//Login button
+			@FindBy(name="login")
+			public WebElement LoginButtonOnFBHome;
+			
+			//Create New account
+			@FindBy(linkText="Create New Account")
+			public WebElement CreateNewAccountOnFBHome;
 
 }
